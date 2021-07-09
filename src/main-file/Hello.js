@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-function Hello(){
+function Hello(props){
 
     return(
-        <p>hi</p>
+        <p>Hi{props.name}</p>
     );
 };
 
